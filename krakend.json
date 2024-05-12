@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "endpoints": [
+    {
+      "endpoint": "/hello",
+      "backend": [
+        {
+          "url_pattern": "/hello",
+          "host": ["http://localhost:8080"]
+        }
+      ]
+    }
+  ]
+}
